@@ -36,8 +36,8 @@ public class fileUploadHelper {
 		this.path = path;
 	}
 
-	public final String UPLOAD_DIR="E:\\Test\\demo\\src\\main\\resources\\static\\files";
-	//public final String UPLOAD_DIR = new ClassPathResource("static\\").getFile().getAbsolutePath();
+	//public final String UPLOAD_DIR="E:\\Test\\demo\\src\\main\\resources\\static\\files";
+	public final String UPLOAD_DIR = new ClassPathResource("static\\files\\").getFile().getAbsolutePath();
 
 	public fileUploadHelper() throws IOException {
 	}

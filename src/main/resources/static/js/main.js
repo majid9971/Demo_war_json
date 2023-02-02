@@ -39,9 +39,9 @@ $(document).ready(function(){
                  var value1=document.getElementById('myValueLine').value;
                   console.log(key1);
                   var xhr=new XMLHttpRequest();
-                 var url="http://localhost:8082/getLine?key="+key1+"&value="+value1;
+                 var url="http://localhost:8088/getLine?key="+key1+"&value="+value1;
                  console.log(url);
-              xhr.open("GET","http://localhost:8082/getLine?key="+key1+"&value="+value1,true);
+              xhr.open("GET","http://localhost:8088/getLine?key="+key1+"&value="+value1,true);
               xhr.onload = function()
               {
    
@@ -65,9 +65,9 @@ $(document).ready(function(){
                  var value1=document.getElementById('myValue').value;
                   console.log(key1);
                   var xhr=new XMLHttpRequest();
-                 var url="http://localhost:8082/getJson?key="+key1+"&value="+value1;
+                 var url="http://localhost:8088/getJson?key="+key1+"&value="+value1;
                  console.log(url);
-              xhr.open("GET","http://localhost:8082/getJson?key="+key1+"&value="+value1,true);
+              xhr.open("GET","http://localhost:8088/getJson?key="+key1+"&value="+value1,true);
               xhr.onload = function()
               {
    
@@ -95,9 +95,9 @@ $(document).ready(function(){
                  var value2=document.getElementById('Values1').value;
                   console.log(key1);
                   var xhr=new XMLHttpRequest();
-                 var url="http://localhost:8082/getJsonTwo?key="+key1+"&value="+value1+"&key1="+key2+"&value1="+value2;
+                 var url="http://localhost:8088/getJsonTwo?key="+key1+"&value="+value1+"&key1="+key2+"&value1="+value2;
                  console.log(url);
-              xhr.open("GET","http://localhost:8082/getJsonTwo?key="+key1+"&value="+value1+"&key1="+key2+"&value1="+value2,true);
+              xhr.open("GET","http://localhost:8088/getJsonTwo?key="+key1+"&value="+value1+"&key1="+key2+"&value1="+value2,true);
               xhr.onload = function()
               {
    
@@ -127,9 +127,9 @@ $(document).ready(function(){
                  var value3=document.getElementById('Value2').value;
                   console.log(key1);
                   var xhr=new XMLHttpRequest();
-                 var url="http://localhost:8082/getJsonThree?key="+key1+"&value="+value1+"&key1="+key2+"&value1="+value2+"&key2="+key3+"&value2="+value3;
+                 var url="http://localhost:8088/getJsonThree?key="+key1+"&value="+value1+"&key1="+key2+"&value1="+value2+"&key2="+key3+"&value2="+value3;
                  console.log(url);
-              xhr.open("GET","http://localhost:8082/getJsonThree?key="+key1+"&value="+value1+"&key1="+key2+"&value1="+value2+"&key2="+key3+"&value2="+value3,true);
+              xhr.open("GET","http://localhost:8088/getJsonThree?key="+key1+"&value="+value1+"&key1="+key2+"&value1="+value2+"&key2="+key3+"&value2="+value3,true);
               xhr.onload = function()
               {
    
